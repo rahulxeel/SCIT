@@ -1,0 +1,390 @@
+
+    a
+    {
+      text-decoration: none;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+       scroll-behavior: smooth;
+
+    }
+
+    nav
+    {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #64CCC5;
+        position: fixed;
+        z-index: 999;
+    }
+
+    #nav_left
+    {
+        width: 30%;
+        height: 100%;
+        border: 0px solid red;    
+        display: flex;   
+        justify-content: start;
+        align-items: center;
+    } 
+    #nav_left img
+    {
+        width: 30%;
+        height: 80%;
+        margin-left: 50px;
+    }
+    #nav_right
+    {
+        width: 70%;
+        height: 100%;
+        border: 0px solid red;  
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+    }
+    
+    .NAV_ITEMS
+    {
+        width: 100%;
+        height: 100%;
+        border: 0px solid red;  
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: black;
+        cursor: pointer;
+    }
+
+    .NAV_ITEMS:hover
+    {
+        background-color: white;
+        color: red;
+    }
+    
+    #SECTION2
+    {
+        height: 100vh;
+        width: 100%;
+        background-color: #176B87;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SECTION2_parta
+    {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 800;
+    }
+
+    #SECTION2_parta_son
+    {   margin-top: 100px;
+        height: 70%;
+        width: 70%;
+        line-height: 2;
+        font-size: 35px;
+
+    }
+
+
+    #SECTION2_partb
+    {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #SECTION2_partb img
+    {
+        height: 60%;
+        width: 60%;
+        margin-top: 100px;
+    }
+    
+    #SECTION3
+    {
+        height: 85vh;
+        width: 100%;
+        background-color: #DAFFFB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SECTION3_parta
+    {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    #SECTION3_parta img
+    {
+        height: 80%;
+        width: 80%;
+    }
+    
+    #SECTION3_partb
+    {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     #SECTION3_partb_son
+     {
+        width: 80%;
+        height: 80%;
+        font-size: 19px;
+        letter-spacing: 2px;
+        color: #04364A;
+        margin: 22px;
+
+     }
+    
+    #SECTION4
+    {
+        height: 90vh;
+        width: 100%;
+        background-color: #04364A;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #SECTION4_UPPERPART
+    {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40PX;
+        color: black;
+        font-weight: 600;
+    }
+
+    #SECTION4_lowerpart
+    {
+        height: 80vh;
+        width: 100%;
+        display: flex;
+    }
+
+    
+    #SECTION4_lowerpart_A
+    {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+     #SECTION4_lowerpart_A_MIANBOX
+     {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+     }
+
+     #SECTION4_lowerpart_A_MIANBOX_PART1
+     {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        
+     }
+
+
+     #SECTION4_lowerpart_A_MIANBOX_PART1A
+     {
+        height: 100%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 29px;
+        color: white;
+     }
+
+     
+     #SECTION4_lowerpart_A_MIANBOX_PART1B
+     {
+        height: 100%;
+        width: 80%;
+        font-size: 25px;
+        color: white;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+     }
+
+     
+    
+
+     #SECTION4_lowerpart_B
+     {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     #SECTION4_lowerpart_B_MIANBOX
+     {
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     #SECTION4_lowerpart_B_MIANBOX_PART
+     {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     #SECTION4_lowerpart_B_MIANBOX_PART input
+     {
+        height: 80%;
+        width: 80%;
+        font-size: 20px;
+        border-radius: 20px;
+        padding-left: 20px;
+     }
+
+     
+     #SECTION4_lowerpart_B_MIANBOX_PART button
+     {
+        height: 80%;
+        width: 85%;
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: #64CCC5;
+        font-weight: 600;
+
+     }
+
+
+    #SECTION5
+    {
+        height: 100vh;
+        width: 100%;
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SECTION5_upperpart
+    {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: black;
+    }
+
+    
+    #SECTION5_lowerpart
+    {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    #SECTION5_lowerpart_card
+    {
+        height: 80%;
+        width: 29%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid white;
+    }
+
+    #SECTION5_lowerpart_card_upperpart
+    {
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #SECTION5_lowerpart_card_upperpart img
+    {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    
+    #SECTION5_lowerpart_card_lowerpart
+    {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 20px;
+    }
+    
+    #SECTION6
+    {
+        height: 20vh;
+        width: 100%;
+        background-color: #64CCC5;
+    }
+
+
+   .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: WHITE;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+   }
